@@ -12,6 +12,10 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
+
+/**
+ * 自定义输出
+ */
 public class FilterDriver extends Configured implements Tool {
     @Override
     public int run(String[] args) throws Exception {
